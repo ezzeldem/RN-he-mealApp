@@ -1,9 +1,9 @@
 import React from "react";
-import { HeaderButton } from "react-nativigation-header-buttons";
+import { Platform } from "react-native";
+import { HeaderButton } from "react-navigation-header-buttons";
 import { Ionicons } from "@expo/vector-icons";
 
 import Colors from "../constants/color";
-import { Platform } from "react-native";
 
 const CustomHeaderButton = (props) => {
   return (

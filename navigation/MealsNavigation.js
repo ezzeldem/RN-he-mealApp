@@ -5,6 +5,8 @@ import CategoryMealsScreen from "../screens/CategoryMealsScreen";
 import MealDetailsScreen from "../screens/MealDetailsScreen";
 import Color from "../constants/color";
 import { Platform } from "react-native";
+// import { createBottomTabNavigator } from "react-navigation-tabs";
+import FiltersScreen from "../screens/FiltersScreen";
 
 const MealsNavigator = createStackNavigator(
   {
@@ -29,4 +31,5 @@ const MealsNavigator = createStackNavigator(
   }
 );
 
+///
 export default createAppContainer(MealsNavigator);

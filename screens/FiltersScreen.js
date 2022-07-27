@@ -2,7 +2,11 @@ import React from "react";
 import { View, StyleSheet } from "react-native";
 
 const FiltersScreen = () => {
-  return <View style={styles.screen}></View>;
+  return (
+    <View style={styles.screen}>
+      <Text>FiltersScreen</Text>
+    </View>
+  );
 };
 
 const styles = StyleSheet.create({
